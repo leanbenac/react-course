@@ -1,0 +1,10 @@
+html, body {
+    background-color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: azure;
+}
+button {
+    padding: 15px;
+    font-size: 1.3rem;
+}
