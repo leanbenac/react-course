@@ -31,7 +31,6 @@ describe('Pruebas en 08-imp-exp', () => {
 
         expect( heroes.length ).toBe( 3);
         // expect( heroes).toEqual([
-
         //     { id: 1, name: 'Batman', owner: 'DC' },
         //     { id: 3, name: 'Superman', owner: 'DC' },
         //     { id: 4, name: 'Flash', owner: 'DC' }
