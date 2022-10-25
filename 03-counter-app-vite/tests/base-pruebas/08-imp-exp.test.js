@@ -27,7 +27,7 @@ describe('Pruebas en 08-imp-exp', () => {
 
         const heroes = getHeroesByOwner(owner)
 
-        console.log(heroes, owner);
+        // console.log(heroes, owner);
 
         expect( heroes.length ).toBe( 3);
         // expect( heroes).toEqual([
@@ -51,7 +51,7 @@ describe('Pruebas en 08-imp-exp', () => {
         expect( heroes.length ).toBe( 2);
         expect( heroes ).toEqual( heroes.filter ((heroe) => heroe.owner === owner))
 
-        console.log(heroes, owner);
+        // console.log(heroes, owner);
 
     });
     

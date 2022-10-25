@@ -2,9 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types'
 
 
-const App = ({ title, subTitle, name }) => {
-
-
+export const FirstApp = ({ title, subTitle, name }) => {
 
   return (
     <>
@@ -16,15 +14,15 @@ const App = ({ title, subTitle, name }) => {
 };
 
 
-export default App;
 
-App.propTypes = {
+
+FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
     subTitle: PropTypes.number,
 }
 
-App.defaultProps = {
+FirstApp.defaultProps = {
     name: 'Leandro Benac',
     subTitle: 19239,
-    title: 'Benac',
+    // title: 'Benac',
 }
